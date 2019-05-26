@@ -1,0 +1,27 @@
+{
+  "name": "sock",
+  "version": "0.0.1",
+  "description": "socket to me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedw032/sock.git"
+  },
+  "keywords": [
+    "sockets",
+    "socket",
+    "sock"
+  ],
+  "author": "Chad Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedw032/sock/issues"
+  },
+  "homepage": "https://github.com/cedw032/sock#readme"
+  "scripts": {
+  	start: "node index.js"
+  },
+}
