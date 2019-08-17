@@ -4,7 +4,7 @@
   "description": "socket to me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,9 @@
   "bugs": {
     "url": "https://github.com/cedw032/sock/issues"
   },
-  "homepage": "https://github.com/cedw032/sock#readme"
-  "scripts": {
-  	start: "node index.js"
-  },
+  "homepage": "https://github.com/cedw032/sock#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
 }
