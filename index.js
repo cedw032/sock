@@ -6,12 +6,24 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
+//io.emit('chat message', msg);
+
 io.on('connection', function(socket){
   console.log('a user connected');
 
-  socket.on('chat message', function(msg){
-    console.log('message: ' + msg);
-    io.emit('chat message', msg);
+  socket.on('offer', function(offer){
+    console.log('offer: ' + offer);
+    socket.broadcast.emit('offer', offer)
+  });
+
+  socket.on('answer', function(answer){
+    console.log('answer: ' + answer);
+    socket.broadcast.emit('answer', answer)
+  });
+
+  socket.on('candidate', function(candidate){
+    console.log('candidate: ' + candidate);
+    socket.broadcast.emit('candidate', candidate)
   });
 
   socket.on('disconnect', function(){
