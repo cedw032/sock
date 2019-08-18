@@ -1,10 +1,9 @@
 # sock
-Sock it to me, Sock it to me, Sock it to me, Sock it to me.
+This was orginally intended to be a working socket server but grew into a webRTC prototype.
 
-- Subscribe to messages
-- Dispatch messages
-- Lock it down
+It was built primarily with reference two these two resources:
+https://socket.io/get-started/chat/
+https://webrtc.github.io/samples/src/content/peerconnection/pc1/
 
-#
-- In progress
-  - run local
+Some work was required to achieve establishing a peer connection with another computer.
+The result can be viewed here: https://warm-brook-34037.herokuapp.com
