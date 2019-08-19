@@ -7,3 +7,5 @@ It was built primarily with reference two these two resources:
 
 Some work was required to achieve establishing a peer connection with another computer.
 The result can be viewed here: https://warm-brook-34037.herokuapp.com
+
+Limited success.  Works when run on chrome on a mac connecting to chrome on a galaxy s9 on the same wifi. 
